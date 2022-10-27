@@ -95,7 +95,7 @@
             "@auto-scripts"
         ],
          "compile": [
-            "php bin/console doctrine:shcema:update --force "
+            "php bin/console doctrine:schema:update --force "
         ]
    
     },
