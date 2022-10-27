@@ -92,11 +92,11 @@
             "@auto-scripts"
         ],
         "post-update-cmd": [
-            "@auto-scripts"
-        ],
-        "compile": [
+            "@auto-scripts",
             "php bin/console doctrine:schema:update --force"
-        ]
+
+        ],
+   
     },
     "conflict": {
         "symfony/symfony": "*"
